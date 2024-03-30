@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <unistd.h> // For usleep
 
 int k;
 double sin(), cos();
+
 int main() {
     float A = 0, B = 0, i, j, z[1760];
     char b[1760];
@@ -38,6 +40,7 @@ int main() {
             putchar(k % 80 ? b[k] : 10);
         A += 0.04;
         B += 0.02;
+        usleep(50000); // Delay for 0.1 second
     }
     return 0;
 }
