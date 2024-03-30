@@ -10,7 +10,7 @@ The donut algorithm is a mesmerizing piece of code that generates a spinning don
 
 This implementation is designed to work in a console environment and is compatible with cm-console, a console graphics library. It should work in most terminal emulators and command-line interfaces that support cm-console.
 
-For more information on cm-console, visit: [cm-console GitHub repository](https://github.com/cmatsuoka/cm-console).
+For more information on cm-console, visit: [arch-termux GitHub repository](https://github.com/renzaspiras/arch-termux).
 
 ## Acknowledgements
 
