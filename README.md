@@ -1,19 +1,32 @@
 # Donut C
 
-This project is a C implementation of the famous "donut" algorithm, which renders a 3D donut shape using ASCII characters in the console. The code is based on optimization techniques outlined by Andy Sloane in his blog post titled ["A journey to the center of the donut"](https://www.a1k0n.net/2021/01/13/optimizing-donut.html). Additionally, it is compatible with cm-console, providing a seamless experience within the console environment.
+This project offers a C implementation of the renowned "donut" algorithm, showcasing a 3D donut shape using ASCII characters within the console. Leveraging optimization techniques detailed by Andy Sloane in his blog post ["A journey to the center of the donut"](https://www.a1k0n.net/2021/01/13/optimizing-donut.html), it seamlessly integrates with cm-console, ensuring a captivating experience in the console environment.
 
 ## Overview
 
-The donut algorithm is a mesmerizing piece of code that generates a spinning donut shape using ASCII characters. It's a beautiful example of how clever mathematics and programming can create stunning visual effects with minimal resources. This project aims to recreate this algorithm in C while incorporating optimizations outlined by Andy Sloane.
+The donut algorithm stands as a mesmerizing display of code, generating a spinning donut shape using ASCII characters, illustrating the profound synergy of mathematics and programming. This project endeavors to replicate this marvel in C while integrating optimizations presented by Andy Sloane.
 
 ## Compatibility
 
-This implementation is designed to work in a console environment and is compatible with cm-console, a console graphics library. It should work in most terminal emulators and command-line interfaces that support cm-console.
+Crafted to excel within console environments, this implementation harmonizes effortlessly with cm-console, a versatile console graphics library. Its compatibility extends across various terminal emulators and command-line interfaces supporting cm-console.
 
-For more information on cm-console, visit: [arch-termux GitHub repository](https://github.com/renzaspiras/arch-termux).
+For further insights on cm-console, explore the [Arch-Termux GitHub repository](https://github.com/renzaspiras/arch-termux).
+
+## Compilation and Execution
+
+To compile the project, execute the following command:
+
+```bash
+gcc donut.c -o donut -lm
+```
+
+To run the compiled executable, use:
+
+```bash
+./donut
+```
 
 ## Acknowledgements
 
-- Andy Sloane for his insightful blog post on optimizing the donut algorithm.
-- cm-console contributors for creating a versatile console graphics library.
-
+- Andy Sloane for illuminating optimization strategies for the donut algorithm.
+- The contributors to cm-console for crafting a dynamic console graphics library.
