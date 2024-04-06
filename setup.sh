@@ -1,4 +1,3 @@
 if [ "$1" = "TERMUX" ]; then
-    echo "testing"
-    rm -rf ~/temp
+    gcc ~/temp/donut.c -o ~/bin/donut    
 fi
